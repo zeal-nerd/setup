@@ -1,0 +1,44 @@
+# ---------- Fonts / Customizations
+fira-code-fonts              # Fira Code programming font
+
+# ---------- Security / Passwords
+keepass                      # Password manager
+
+# ---------- Browsers / Communication
+google-chrome-stable          # Chrome browser
+telegram-desktop              # Telegram messaging app
+# firefox                     # Optional backup browser
+
+# ---------- Media Players / Editing
+vlc                           # Media player
+# gimp                        # Image editing
+# inkscape                     # Vector graphics editing
+# audacity                     # Audio editing
+ffmpeg                        # Command-line media tools
+
+# ---------- Virtualization
+# qemu                          # QEMU virtual machine
+# qemu-system-x86               # QEMU system emulator
+virtualbox                    # VirtualBox hypervisor
+# virt-manager                # GUI for managing VMs
+
+# ---------- Cloud Storage / Tunneling
+dropbox                       # Dropbox cloud storage
+# cloudflared                  # Cloudflare tunnel client
+
+# ---------- Text Editors / IDEs
+vim                            # Classic editor
+code                           # VS Code editor
+
+# ---------- Databases
+postgresql                     # PostgreSQL CLI tools 
+postgresql-server              # PostgreSQL server service
+# pgadmin4                     # PostgreSQL GUI
+
+# ---------- Docker / Containers
+# docker-ce                    # Docker Engine
+# docker-ce-cli                # Docker CLI
+# containerd.io                # Container runtime
+# docker-compose-plugin        # Docker Compose plugin
+# docker-buildx-plugin         # Docker Buildx plugin
+
