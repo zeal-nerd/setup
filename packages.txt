@@ -35,6 +35,11 @@ postgresql                     # PostgreSQL CLI tools
 postgresql-server              # PostgreSQL server service
 # pgadmin4                     # PostgreSQL GUI
 
+# ----------- Torrent
+# qbittorrent 			# Torrent Client
+# ----------- Web Server
+# nginx				# Web server and reverse proxy
+
 # ---------- Docker / Containers
 # docker-ce                    # Docker Engine
 # docker-ce-cli                # Docker CLI

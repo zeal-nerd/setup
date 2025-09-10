@@ -13,12 +13,20 @@ sudo dnf update -y
 # Extract packages from 'packages.txt' file and install
 packages=$(grep -vE '^\s*#' packages.txt | awk '{print $1}')
 
+# Show a list of packages to install and prompt confirmation
+
 echo $packages
 sudo dnf install -y $packages
 
-# Node.js setup
+# Scripts
+# Make scripts executable
+
+# Install Node.js 
 scripts/install-node.sh
 
 # VS Code profile setup
-scripts/install-vscode-profiles.sh
+scripts/setup-vscode-profiles.sh
+
+# Run Post Setup Script - disable third party repositories
+
 
